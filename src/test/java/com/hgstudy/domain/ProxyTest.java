@@ -1,4 +1,4 @@
-package com.hgstudy.domain.member;
+package com.hgstudy.domain;
 
 import com.hgstudy.domain.league.entity.League;
 import com.hgstudy.domain.league.repository.LeagueRepository;
@@ -19,7 +19,7 @@ import javax.persistence.EntityManager;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
-public class MemberTest {
+public class ProxyTest {
 
     @Autowired
     private MemberService memberService;
